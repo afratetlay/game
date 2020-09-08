@@ -8,7 +8,30 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 <body>
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+  How to play
+</button>
 
+<!-- Modal -->
+<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">How to play</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+       <p>1. The game is played on a grid that's 3 squares by 3 squares.</p>
+       <p>2. You are X, your friend is O. Players take turns putting their marks in empty squares.</p>
+       <p>3. The first player to get 3 of her marks in a row (up, down, across, or diagonally) is the winner.</p>
+       <p>4. When all 9 squares are full, the game is over.</p>
+      </div>
+    </div>
+  </div>
+</div>
  <div class="board" id="board">
     <div class="cell" data-cell></div>
     <div class="cell" data-cell></div>
