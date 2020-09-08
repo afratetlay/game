@@ -87,3 +87,9 @@ function checkWin(currentClass) {
     })
   })
 }
+
+// start of the quiz app //
+
+
+
+//end of the quiz app // 
